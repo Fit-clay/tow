@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="bookshopp"
+  id="myeclipse.1438064005187"
+  context-root="/bookshopp"
+  j2ee-spec="5.0"
+  archive="bookshopp.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

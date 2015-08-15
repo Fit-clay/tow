@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <application
+        android:name="com.dep.mystatic.Mylogin_check"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        
+         >
+        <activity
+            android:name="com.example.shopp.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.shopp.login" >
+        </activity>
+        <activity android:name="com.example.shopp.register" >
+        </activity>
+          <activity android:name="com.example.shopp.particcular" >
+        </activity>
+         <activity android:name="com.example.shopp.search" >
+        </activity>
+        
+           <activity android:name="com.example.shopp.electron" >
+        </activity>
+         <activity android:name="com.example.shopp.shopp_car" >
+        </activity>
+         <activity android:name="com.example.shopp.userinfo" >
+        </activity>
+           <activity android:name="com.example.shopp.forget_passwd" >
+        </activity>
+         
+    </application>
+
+</manifest>
